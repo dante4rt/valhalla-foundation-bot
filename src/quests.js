@@ -16,7 +16,7 @@ const getAllQuests = async (bearerToken) => {
       .map((data) => ({ id: data.quest._id, title: data.quest.title }));
     const seasonalQuests = data.socialPoints.seasonalQuests
       .filter((item) => !item.completed)
-      .map((data) => ({ id: data._id, title: data.title }));
+      .map((data) => ({ id: data.quest._id, title: data.quest.title }));
     return { latestSeason, specialQuests, seasonalQuests };
   } catch (error) {
     console.error('Error in Get Quests: ' + error);
