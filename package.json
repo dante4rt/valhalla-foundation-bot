@@ -1,0 +1,24 @@
+{
+  "name": "valhalla-foundation-bot",
+  "version": "1.0.0",
+  "description": "A bot for automating the completion and claiming of quests on the Infinigods platform.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "bot",
+    "automation",
+    "quests",
+    "infinigods",
+    "valhalla",
+    "airdrops"
+  ],
+  "author": "HappyCuanAirdrop",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "colors": "^1.4.0"
+  }
+}
